@@ -1,0 +1,17 @@
+body {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center; /* iecentrē tekstu */
+}
+
+img {
+    max-width: 100%; /* lai bildes neiet ārpus <div> robežām */
+}
+
+.kolonna {
+    width: 45%; /* lai viņi ievietojas blakus, ierobežojam paltumu */
+    display: inline-block;  /* Noliekam elementus blakus */
+    vertical-align: top;
+}
